@@ -7,6 +7,8 @@ const styles = StyleSheet.create({
   container: {
   },
   addButton: {
+    position: 'absolute',
+    bottom: 0,
   }
 });
 
