@@ -26,11 +26,11 @@ const Line = styled.View`
     border-bottom-style: solid;
 `;
 
-export default function Person({title, imageUrl}) {
+export default function Person({name, imageUrl}) {
     return (
         <PersonView>
           <PersonImage source={{uri: imageUrl}}/>
-          <PersonTitle>{title}</PersonTitle>
+          <PersonTitle>{name}</PersonTitle>
           <Line/>
         </PersonView>
     );
